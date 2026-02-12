@@ -5,7 +5,7 @@ A collection of specialized GitHub Copilot agents for various development tasks.
 ## Available Agents
 
 ### Azure DevOps Extension Developer
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](vscode:chat-agent/install?url=https://raw.githubusercontent.com/mskold-ab/Awesome-CoPilot/refs/heads/main/agents/Modern%20Extension%20Developer?token=GHSAT0AAAAAADTKZYPEUFLO4PMI255IVGS62MN4QDA)<br />
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](ttps://aka.ms/awesome-copilot/install/agent?url=vscode%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2F=https://raw.githubusercontent.com/mskold-ab/Awesome-CoPilot/refs/heads/main/agents/Modern%20Extension%20Developer?token=GHSAT0AAAAAADTKZYPEUFLO4PMI255IVGS62MN4QDA)<br />
 Expert agent for developing Azure DevOps extensions, including:
 <a href="vscode:chat-agent/install?url=https://raw.githubusercontent.com/mskold-ab/Awesome-CoPilot/refs/heads/main/agents/Modern%20Extension%20Developer">test</a>
 - Web extensions and UI contributions
