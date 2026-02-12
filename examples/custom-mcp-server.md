@@ -353,9 +353,10 @@ class ProjectContextServer {
       if (code.includes("var ")) {
         violations.push("Use 'const' or 'let' instead of 'var'");
       }
-      // Check for == that is not part of === or !== 
-      const doubleEqualsMatches = code.match(/[^=!]={2}[^=]/g);
-      if (doubleEqualsMatches && doubleEqualsMatches.length > 0) {
+      // Check for == that is not part of === or !==
+      // This is a simplified check - in production, use a proper linter
+      const hasLooseEquality = /(?<![=!])={2}(?!=)/g.test(code);
+      if (hasLooseEquality) {
         violations.push("Use '===' instead of '=='");
       }
     }
