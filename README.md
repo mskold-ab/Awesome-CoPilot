@@ -2,7 +2,11 @@
 
 A curated list of resources to improve and extend GitHub Copilot, including custom agents, skills, and Model Context Protocols (MCPs).
 
+👉 **New to Copilot improvements?** Start with the [Quick Start Guide](QUICKSTART.md)!
+
 ## Table of Contents
+
+- [Quick Start](QUICKSTART.md)
 
 - [Agents](#agents)
 - [Skills](#skills)
