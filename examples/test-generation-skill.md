@@ -109,7 +109,7 @@ import { Database } from './database';
 
 describe('UserService', () => {
   let userService: UserService;
-  let mockDb: jest.Mocked<Database>;
+  let mockDb: ReturnType<typeof vi.mocked<Database>>;
   
   beforeEach(() => {
     mockDb = {
@@ -348,14 +348,17 @@ class TestCalculator:
 ### Command Line
 
 ```bash
+# Note: These are example commands showing how a skill system might work
+# Actual implementation may vary based on your Copilot setup
+
 # Generate tests for a file
-copilot-skill test-generator --input src/userService.ts --output tests/userService.test.ts
+copilot skill test-generator --input src/userService.ts --output tests/userService.test.ts
 
 # Generate tests with specific framework
-copilot-skill test-generator --input src/calculator.py --framework pytest --output tests/test_calculator.py
+copilot skill test-generator --input src/calculator.py --framework pytest --output tests/test_calculator.py
 
 # Generate tests with coverage target
-copilot-skill test-generator --input src/app.js --coverage-target 90
+copilot skill test-generator --input src/app.js --coverage-target 90
 ```
 
 ## Configuration
