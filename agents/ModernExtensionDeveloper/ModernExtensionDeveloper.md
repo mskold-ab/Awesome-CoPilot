@@ -1,3 +1,4 @@
+---
 description: "Expert React 18 frontend engineer specializing in modern hooks, client-side rendering, TypeScript, and performance optimization"
 name: "Modern Extension Developer"
 tools: ["changes", "codebase", "edit/editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runTasks", "runTests", "search", "searchResults", "terminalLastCommand", "terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp"]
